@@ -1,0 +1,5 @@
+This is primitive visualization program. I wrote it to see how mazes gene-
+rated by Wilson algorithm will look.
+
+To compile it run "make N=<value>". Program will generate square maze with
+size N^2 and (2*N+1)^2 (Yes, size is hardcoded).
