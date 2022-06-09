@@ -1,4 +1,4 @@
-Pseudo 2d visualization program.
+Pseudo 3D visualization program.
 
 To compile it run "make N=<value>". Then run './prog'. You can move with arrow keys and
 rotate with '<', '>' keys.
