@@ -1,5 +1,7 @@
-This is primitive visualization program. I wrote it to see how mazes gene-
-rated by Wilson algorithm will look.
+Pseudo 2d visualization program.
 
-To compile it run "make N=<value>". Program will generate square maze with
-size N^2 and (2*N+1)^2 (Yes, size is hardcoded).
+To compile it run "make N=<value>". Then run './prog'. You can move with arrow keys and
+rotate with '<', '>' keys.
+
+gen.c				Maze generation
+run.c				main program

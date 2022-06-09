@@ -1,2 +1,6 @@
+CC = gcc
+CFLAGS = -Wall -Ofast -march=native
+
 cmp:
-	gcc -Wall -Ofast -march=native -DN=$(N) -o prog gen.c
+	$(CC) $(CFLAGS) -DN=$(N) -o gen gen.c
+	$(CC) $(CFLAGS) -o prog run.c -lm -lncurses

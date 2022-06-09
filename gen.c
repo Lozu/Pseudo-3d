@@ -299,9 +299,10 @@ void smaze_print(unsigned char (*res)[2*n+1])
 {
 	int i, j;
 	for (i = 0; i < 2*n+1; ++i) {
+		printf("\"");
 		for (j = 0; j < 2*n+1; ++j)
 			printf("%c", res[i][j]);
-		printf("\n");
+		printf("\"\n");
 	}
 }
 
